@@ -1,20 +1,18 @@
 # Hythonium
-A web browser based on Python PyQt5.
+A web browser based on Python PyQt5. It is fast and light. One web page costs about an average memory of 60 MB.  
+It doesn't support HTML 5 Player.
 # How to conifg
-1.Put 'config.py' and 'hynium.py' or 'hynium.exe' in the same directory.
-
-  If there is NO config.py, You can make one by yourself.
+1.Put 'config.py' and 'hynium.py' or 'hynium.exe' in the same directory.  
+If there is NO config.py, You can make one by yourself.
   
-2.Edit 'config.py'
+2.Edit 'config.py'  
+Edit it like Python. Make the content:
 
-  Edit it like Python. Make the content:
-  
     config = {
-      "Key1": Value1,
+      "Key1": Value1,  # You can add some notes here. Let it start with '#'
       "Key2": Value2,
     }
-    
-  'Keys' are all str objects. 
+  The keys all must be str objects. 
   
   Keys are:
   
@@ -25,8 +23,9 @@ A web browser based on Python PyQt5.
     User-Agent: (str) -- Set UA value. eg:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
     default_dnload_filename: (str) -- Set default downloading file name eg:"download_file"
 # How to build your own one
-In terminal:
+In the terminal:
 
     pip install pyinstaller # If you use conda, you can change this command
+    cd the_project_folder # where you download the project
     pyinstaller -F -w hynium.py # -F means one file mode. -w means without terminal window when running. You can change.
     dist/hynium.exe # Enjoy !
