@@ -21,11 +21,13 @@ Edit it like Python. Make the content:
     new_tab: (str)<URL> -- Set the new tab when clicking '+' button. eg:"https://www.baidu.com"
     save_folder: (str)<PATH> -- Set the downloading path. eg:"Downloads" | "./Downloads" | "/home/usrname/Downloads" | "C:\\Downloads"
     User-Agent: (str) -- Set UA value. eg:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
-    default_dnload_filename: (str) -- Set default downloading file name eg:"download_file"
+    default_dnload_filename: (str) -- Set default downloading file name. eg:"download_file"
 # How to build your own one
-In the terminal:
+In the Shell (Powershell / Bash / Xterm / ...):
 
-    pip install pyinstaller # If you use conda, you can change this command
+    pip install pyinstaller # When you have NOT installed pyinstaller. Continue if you have. If you use conda, you can change this command
     cd the_project_folder # where you download the project
     pyinstaller -F -w hynium.py # -F means one file mode. -w means without terminal window when running. You can change.
     dist/hynium.exe # Enjoy !
+
+If you use Windows Cmd, delete the notes (start with '#').
