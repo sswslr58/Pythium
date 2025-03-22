@@ -1,5 +1,5 @@
 # Hythonium
-A web browser based on Python PyQt5. It is fast and light. One web page costs about an average memory of 60 MB.  
+A lightweight web browser built with PyQt5 and QtWebEngine.
 It doesn't support HTML 5 Player.
 # How to conifg
 1.Put 'config.py' and 'hynium.py' or 'hynium.exe' in the same directory.  
