@@ -22,6 +22,16 @@ Edit it like Python. Make the content:
     save_folder: (str)<PATH> -- Set the downloading path. eg:"Downloads" | "./Downloads" | "/home/usrname/Downloads" | "C:\\Downloads"
     User_Agent: (str) -- Set UA value. eg:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
     default_dnload_filename: (str) -- Set default downloading file name. eg:"download_file"
+The default code:
+
+    config = {
+    "homepage": "https://www.baidu.com",
+    "search_engine": "https://www.baidu.com/s?wd=",
+    "new_tab": "https://www.baidu.com",
+    "download_folder": "Downloads",
+    "User_Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
+  }
+
 # How to build your own one
 In the Shell (Powershell / Bash / Xterm / ...):
 
