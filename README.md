@@ -23,7 +23,7 @@ Edit it like Python. Make the content:
     save_folder: (str)<PATH> -- Set the downloading path. eg:"Downloads" | "./Downloads" | "/home/usrname/Downloads" | "C:\\Downloads"
     User_Agent: (str) -- Set UA value. eg:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
     default_dnload_filename: (str) -- Set default downloading file name. eg:"download_file"
-The default code (v0.0.2):
+The default code (v0.0.3):
 
     # coding=utf-8
     # Hythonium Config
@@ -34,6 +34,7 @@ The default code (v0.0.2):
     
     Just put this file in the SAME directory as hynium.py | hynium.exe
     DO REMEMBER: The filename MUST BE "config.py" !!!
+    The encoding MUST BE utf-8.
     
     ========================================================
     
@@ -74,9 +75,9 @@ The default code (v0.0.2):
         print("Do NOT execute this file again !")
     
     config = {
-        "homepage": "https://www.baidu.com",
-        "search_engine": "https://www.baidu.com/s?wd=",
-        "new_tab": "https://www.baidu.com",
+        "homepage": "https://www.bing.com",
+        "search_engine": "https://www.bing.com/s?q=",
+        "new_tab": "https://www.bing.com",
         "download_folder": "Downloads",
         "User_Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
     }
