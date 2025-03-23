@@ -49,7 +49,7 @@ if __name__ == "__main__":
 
 config = {
     "homepage": "https://www.bing.com",
-    "search_engine": "https://www.bing.com/s?q=",
+    "search_engine": "https://www.bing.com/search?q=",
     "new_tab": "https://www.bing.com",
     "download_folder": "Downloads",
     "User_Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",

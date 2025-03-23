@@ -353,9 +353,9 @@ def load_external_config():
 def load_loaded_config():
     config = load_external_config()
     print("Loaded config:", config)
-    homepage = config.get("homepage", "https://www.baidu.com")
-    search_engine = config.get("search_engine", "https://www.baidu.com/s?wd=")
-    new_tab = config.get("new_tab", "https://www.baidu.com")
+    homepage = config.get("homepage", "https://www.bing.com")
+    search_engine = config.get("search_engine", "https://www.bing.com/search?q=")
+    new_tab = config.get("new_tab", "https://www.bing.com")
     download_folder = config.get("download_folder", "Downloads")
     User_Agent = config.get(
         "User_Agent",
