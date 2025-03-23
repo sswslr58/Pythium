@@ -3,6 +3,7 @@ A lightweight web browser built with PyQt5 and QtWebEngine.
 It doesn't support HTML 5 Player.
 # How to conifg
 1.Put 'config.py' and 'hynium.py' or 'hynium.exe' in the same directory.  
+The encoding MUST BE utf-8.
 If there is NO config.py, You can make one by yourself.
   
 2.Edit 'config.py'  
