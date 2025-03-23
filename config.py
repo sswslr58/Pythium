@@ -48,9 +48,31 @@ if __name__ == "__main__":
     print("Do NOT execute this file again !")
 
 config = {
-    "homepage": "https://www.baidu.com",
-    "search_engine": "https://www.baidu.com/s?wd=",
-    "new_tab": "https://www.baidu.com",
+    "homepage": "https://www.bing.com",
+    "search_engine": "https://www.bing.com/s?q=",
+    "new_tab": "https://www.bing.com",
     "download_folder": "Downloads",
     "User_Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
