@@ -7,6 +7,7 @@ Hythonium will load it as a dictionary and use it in the browser.
 
 Just put this file in the SAME directory as hynium.py | hynium.exe
 DO REMEMBER: The filename MUST BE "config.py" !!!
+The encoding MUST BE utf-8.
 
 ========================================================
 
