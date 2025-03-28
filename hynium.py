@@ -156,6 +156,10 @@ class Browser(QMainWindow):
             self.tabs.removeTab(index)
 
     def set_config(self):
+        if not os.path.exists("config.py"):
+            messagebox.showerror("Error", "config.py file not found.")
+            return
+
         self.config_window = tk.Tk()
         self.config_window.title("Hythonium Config")
         self.config_window.geometry("1200x900")
@@ -176,10 +180,6 @@ class Browser(QMainWindow):
 
         # Bind window close event to quit_config method
         self.config_window.protocol("WM_DELETE_WINDOW", self.quit_config)
-
-        # Read file content
-        with open("config.py", "r", encoding="utf-8") as f:
-            self.before_content = f.read()
 
         # Create a frame to hold buttons
         button_frame = tk.Frame(self.config_window)
