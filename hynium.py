@@ -1,7 +1,7 @@
 # coding=utf-8
 # ========================
 """
-Hythonium Browser - A lightweight web browser built with PyQt5 and QtWebEngine
+Hythonium Browser - A lightweight web browser built with PyQt5 and QtWebEngine.
 """
 # ========================
 from PyQt5.QtWidgets import (
