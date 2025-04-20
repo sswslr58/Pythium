@@ -100,7 +100,7 @@ In the Shell (Powershell / Bash / Xterm / ...):
 
     pip install pyinstaller # When you have NOT installed pyinstaller. Continue if you have. If you use conda, you can change this command
     cd the_project_folder # where you download the project
-    pyinstaller -F -w hynium.py # -F means one file mode. -w means without terminal window when running. You can change it.
-    dist/hynium.exe # Enjoy !
+    pyinstaller -F -w pythium.py # -F means one file mode. -w means without terminal window when running. You can change it.
+    dist/pythium.exe # Enjoy !
 
 If you use Windows Cmd, delete the notes (start with '#').
